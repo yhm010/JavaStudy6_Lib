@@ -7,14 +7,22 @@ import javax.swing.filechooser.FileNameExtensionFilter;
 public class StringStudy1 {
 	
 	public void splitTest() {
-		String name="iu, suji, choa, 펭수, 춘식이";
+		String name = "iu suji choa 펭수 춘식이";
+		String [] names = name.split(" ");
+		
+		for(int i=0; i<names.length;i++) {
+			System.out.println(names[i].trim());
+		}
+		
+		
 	}
 	
-	
-	public static String valueTest() {
+
+	public static void valueTest() {
 		int num =1000;
 		String result = String.valueOf(num);
 		System.out.println(result);
+	}
 	
 	public void castTest() {
 		String title = "West Side Story";
