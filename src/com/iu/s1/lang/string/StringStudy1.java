@@ -5,6 +5,38 @@ import java.util.Scanner;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
 public class StringStudy1 {
+	
+	public void splitTest() {
+		String name="iu, suji, choa, 펭수, 춘식이";
+	}
+	
+	
+	public static String valueTest() {
+		int num =1000;
+		String result = String.valueOf(num);
+		System.out.println(result);
+	
+	public void castTest() {
+		String title = "West Side Story";
+		
+		String tri = title.trim();
+		System.out.println(tri);
+		
+		String tol = title.toLowerCase();
+		System.out.println(tol); // 소문자
+		
+		String tou = title.toUpperCase();
+		System.out.println(tou); // 대문자
+		System.out.println(title); // 원본
+	}
+	
+	public void replaceTest() {
+		String title = "West Side Story";
+		// 참조변수명.멤버메서드명() 멤버메서드 사용하는 법
+		String reslet = title.replace('S', 't');
+		System.out.println(title);
+		System.out.println(reslet);
+	}
 
 	public void subStringEx1() {
 		//키보드로부터 업로드할 파일명을 입력
@@ -20,15 +52,16 @@ public class StringStudy1 {
 				System.out.println(result);
 				
 				if(result.equals("jpg") || result.equals("gif") || result.equals("png")) {
-					System.out.println("이미지 파일");
-				}else if(result.equals("txt") || result.equals("pdf") || result.equals("hwp") ) {
-					System.out.println("문서 파일");
-				}else if(result.equals("mp3") || result.equals("wav") || result.equals("ogg")) {
-					System.out.println("음원 파일");
+					System.out.println("이미지파일입니다.");
+				}else if (result.equals("txt") || result.equals("pdf") || result.equals("hwp")) {
+					System.out.println("문서파일입니다.");
+				}else if(result.equals("mp3") || result.equals("wav") || result.equals("ogg")){
+					System.out.println("음원파일입니다.");
 				}else {
-					System.out.println("알수 없는 파일 형식");
+					System.out.println("알 수 없는 파일입니다.");
 				}
 
+					
 	}
 
 	public void SubStringTest() {
@@ -63,8 +96,8 @@ public class StringStudy1 {
 		// w
 		// e
 //		//s
-//		for (int i=0;i<title.length();i++)
-//			System.out.println(title.charAt(i));
+		for (int i=0;i<title.length();i++)
+			System.out.println(title.charAt(i));
 	}
 
 	public void indexOfTest() {
