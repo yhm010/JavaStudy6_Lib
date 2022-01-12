@@ -4,8 +4,11 @@ public class WrapperMain {
 
 	public static void main(String[] args) {
 		
-		WrapperEx1 ex = new WrapperEx1();
-		ex.ex2();
+//		WrapperEx1 ex = new WrapperEx1(); // 이거 넣어야 콘솔에 찍힘
+//		ex.ex2();
+		
+		WrapperEx1 wp = new WrapperEx1();
+		wp.ex1();
 		
 //		int num = 10;
 //		

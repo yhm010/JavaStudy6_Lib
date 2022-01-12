@@ -12,7 +12,7 @@ public class ListStudy {
 		ar3.add("a");
 		
 		//<> : generic - 제네릭
-		ArrayList<Integer> ar = new ArrayList<Integer>();
+		ArrayList<Integer> ar = new ArrayList<Integer>(); // 객체생성
 		ar.add(1); // int
 		ar.add(2);
 //		ar.add('b'); //char
@@ -60,8 +60,8 @@ public class ListStudy {
 		ar.add(3); //2
 		ar.add(1, 100);
 		ar.set(0, 2000);
-		ar.remove(0);
-		ar.clear();
+//		ar.remove(0);
+//		ar.clear();
 		
 //		System.out.println(numbers[0]); // 배열 꺼내는법
 //		System.out.println(ar.get(0)); // add 꺼내는법

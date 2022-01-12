@@ -6,7 +6,7 @@ public class SeasonDTO {
 	
 	private String name;
 	private int gion;
-	public String getName() {
+	public String getName() { //오버라이딩
 		return name;
 	}
 	public void setName(String name) {
