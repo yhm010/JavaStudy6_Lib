@@ -23,12 +23,7 @@ public class MemberData {
 		//MemberDTO를 생성해서 멤버변수값으로 대입
 		//MemberDTO들을 ArrayList 담아서 리턴
 		
-		StringTokenizer st = new StringTokenizer(data, "-");
-		
-		ArrayList<MemberDTO> ar = new ArrayList<>();
-		
-		
-		
+		System.out.println("MemberEx1 Branch");
 		return null; // 수정해야함
 	}
 
