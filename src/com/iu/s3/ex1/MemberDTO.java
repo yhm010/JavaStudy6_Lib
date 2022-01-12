@@ -1,4 +1,4 @@
-package com.iu.s1.lang.string.ex1;
+package com.iu.s3.ex1;
 
 public class MemberDTO {
 	//선언
