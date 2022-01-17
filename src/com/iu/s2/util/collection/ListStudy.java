@@ -1,8 +1,28 @@
 package com.iu.s2.util.collection;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+
 
 public class ListStudy {
+	
+	public List<String> study5() {
+		LinkedList<String> list = new LinkedList<>();
+		list.add("1");
+		return list;
+	}
+	
+	public void study4() {
+		LinkedList<Integer> list = new LinkedList<>(); //ArrayList와 메서드는 똑같음
+		list.add(1);
+		list.add(2);
+		
+		System.out.println(list.get(0));
+		
+	}
+	
 	public void Study3() {
 		
 //		ArrayList<E> ar3 = new ArrayList<E>();

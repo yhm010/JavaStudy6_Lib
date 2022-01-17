@@ -1,4 +1,4 @@
-package com.iu.s3.ex1;
+package com.iu.s3.ex1.mamber;
 
 public class MemberDTO {
 	//선언
